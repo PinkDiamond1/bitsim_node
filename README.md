@@ -2,15 +2,15 @@
 
 > Bitcoin Simulation Node 
 
-## about
+## About
 
-bitsim is a 'bitcoin node in a box' meant for mocking test scenarios. 
+Bitsim is a 'bitcoin node in a box' meant for mocking test scenarios. 
 
-bitsim is slightly different from regular regtest mode, because it supports: 
+Bitsim is slightly different from regular regtest mode, because it supports: 
 - mainnet addresses
 - mainnet magic bytes
 
-## instructions
+## Instructions
 
 ```bash
 # pull image
