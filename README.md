@@ -2,8 +2,6 @@
 
 > Bitcoin Simulation Node 
 
-<img src='./assets/akira.jpeg' width=500px>
-
 ## about
 
 bitsim is a 'bitcoin node in a box' meant for mocking test scenarios. 
