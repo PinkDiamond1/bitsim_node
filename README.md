@@ -4,15 +4,15 @@
 
 <img src='./assets/akira.jpeg' width=500px>
 
-### about
+## about
 
-neoregtest is a 'bitcoin node in a box' meant for mocking test scenarios. 
+bitsim is a 'bitcoin node in a box' meant for mocking test scenarios. 
 
-neoregtest is slightly different from regular regtest mode, because it supports: 
+bitsim is slightly different from regular regtest mode, because it supports: 
 - mainnet addresses
 - mainnet magic bytes
 
-### instructions
+## instructions
 
 ```bash
 # pull image
