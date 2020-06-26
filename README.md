@@ -22,11 +22,11 @@ docker pull planaria/bitsim:0.0.2
 docker run -d -p 18332-18333:18332-18333 planaria/bitsim:0.0.2
 
 # hit RPC 
-bitcoin-cli -regtest -rpcport=18332 help
+bitcoin-cli -rpcport=18332 help
 
 # validate address
-bitcoin-cli -regtest -rpcport=18332 validateaddress "1DzqBck9oyCBzxJbbje2s15deZis6BeATi"
+bitcoin-cli -rpcport=18332 validateaddress "1DzqBck9oyCBzxJbbje2s15deZis6BeATi"
 
 # mine blocks
-bitcoin-cli -regtest -rpcport=18332 generatetoaddress 3 "1DzqBck9oyCBzxJbbje2s15deZis6BeATi"
+bitcoin-cli -rpcport=18332 generatetoaddress 3 "1DzqBck9oyCBzxJbbje2s15deZis6BeATi"
 ```
